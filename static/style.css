@@ -1,0 +1,67 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: #E4DCCF;   
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    margin-top: auto;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    color: #982c2c;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #982c2c;
+    color: #fff;
+}
+
+button:hover {
+    color: #982c2c;
+    background-color: #fff;
+    border: #982c2c 1px solid;
+}
+
+.svg-wrapper {
+    width: 100%;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.shortened-url {
+    font-size: 1.2rem;
+    color: #982c2c;
+}
