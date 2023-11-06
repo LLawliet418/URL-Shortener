@@ -1,3 +1,3 @@
 # URL Shortener
 
-![URL Shortener](URL Shortener.png)
+![URL Shortener](URL_Shortener.png)
